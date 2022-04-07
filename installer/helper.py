@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+#add comment in line 16
 
 import os
 import shutil
@@ -48,7 +48,7 @@ def init_logging():
     formatter = logging.Formatter(LOGGING_FORMAT)
     server_log_file.setFormatter(formatter)
     logger.addHandler(server_log_file)
-
+    
 
 def create_dir(dirname=None):
     try:
